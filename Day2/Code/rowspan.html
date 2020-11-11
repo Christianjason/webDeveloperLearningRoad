@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RowSpan</title>
+</head>
+<body>
+<!--Emmet语法：table[border=1 width=500 align=center]>tr*3>td{内容$$}*3-->
+<table border="1" width="500" align="center">
+    <tr align="center">
+        <!--align:水平对齐  center/left/right
+            valign：垂直对齐  top/middle/bottom-->
+        <td rowspan="2" align="center" valign="top">内容01</td>
+        <td>内容02</td>
+        <td rowspan="3">内容03</td>
+    </tr>
+    <tr>
+        <td>内容02</td>
+    </tr>
+    <tr>
+        <td>内容01</td>
+        <td>内容02</td>
+    </tr>
+</table>
+</body>
+</html>
