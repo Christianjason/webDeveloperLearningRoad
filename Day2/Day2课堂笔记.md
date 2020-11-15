@@ -6,7 +6,7 @@
 
 3、标签属性分通用属性、自有属性、用户自定义属性。
 
-4、通用属性：所有标签都具有的属性叫作通用属性
+4、通用属性：所有标签都具有的属性叫作通用属性（除br标签外）
 
 ```
 id：用于给标签取一个唯一的名称。ID的名称是唯一的，不能重复的定义。
@@ -30,7 +30,7 @@ title：鼠标移至标签的时候的提示文本，目的是起一个提示的
 
 > 表格标签主要用于呈现格式化数据。
 
-- 表格是有行、列组成。
+- 表格是有行、列组成（先行后列）。
 
 ```html
 表格的格式
@@ -93,9 +93,33 @@ align:表格的对齐方式 left（居左） center（居中）right（居右）
 
   ```
   input类：
+  根据不同的type属性，变化为多种状态输入方式
+  主要用来完成输入，或发出指令。
+  type值：text/password/radio/checkbox/file/button/image/submit/reset
+  1)text：单行文本输入框。type=“text”可以不写，默认type就是text
+  		属性：placeholder(提示)/name(命名，便于区分传送到后台的数据)/minlength(最小输入的字符个数)/maxlength(最多输入的字符个数)/disable(失效)/readonly(只读)
+  				 value(设置缺省值)/pattern(用于正则匹配)
+  2)password:密码框，属性与text一样
+  3)radio:单选钮，通常用于两项以上。常用属性有：name(命名，这个是必须的)/value(值)/check(默认选中)/disable/readonly
+  4)checkbox:复选框可以用来选择0项、1项或者多项。
+  常用的属性有：name（必须要有）/value/checked/disable/readonly
+  5)file:文件上传按钮
+  6)button:普通按钮，通常用它去调用脚本代码，发送指令等。常用属性：value（按钮标题）/disable（失效）readonly（只读）
+  7)image:图片按钮，用法与button一样。有一个特殊的属性(src，用于加载图片 替换了value)
+  也有提交功能，与submit一样
+  8)submit:提交按钮，用来见表单提交到后台
+  属性：value/disable
+  9)reset:重置按钮，将表单所有的组建输入的内容全部清空，还原为初始状态
+  属性：value/disable
   textarea类：
+  	文本域（也可以叫多行文本框），主要用于输入大批量的内容
+  	常用的属性：name/id/cols/rowss/placeholder(提示)/maxlength/required(表示必须输入)/value(获取文本框里面的值)
   select类：
+  	下拉列表框，用于单项选择
+  	multiple属性表示可以多选，这个时候的下拉列表框变成了列表框
+  	size:最多显示的行数
   button类：
+  	普通按钮，具有提交功能。可以单独使用，可以不写到form里面。若写在form中，就有一个提交的功能。
   ```
 
   

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单信息作业</title>
+</head>
+<p>
+    <h1>表单信息</h1>
+<form action="">
+    <label>账号：</label> <input type="text" placeholder="请输入账号"></input> <br>
+    <label>邮箱：</label> <input type="text" placeholder="请输入邮箱"></input> <br>
+    <label>密码：</label> <input type="password" placeholder="请输入密码"></input> <br>
+    <label>性别：</label>
+    <input type="radio" name="sex" checked>男</input>
+    <input type="radio" name="sex">女</input>
+    <br>
+    <label>技能</label>
+    <input type="checkbox" name="tools">htmp+css</input>
+    <input type="checkbox" name="tools">javascript</input>
+    <input type="checkbox" name="tools">php</input>
+    <input type="checkbox" name="tools">java</input>
+    <br>
+    <label>头像：</label>
+        <input type="file">
+    <br>
+    <label>现居地：</label>
+    <select name="area1" id="area1">
+        <option value="广东省">广东省</option>
+    </select>
+    <select name="area2" id="area2">
+        <option value="广州市">广州市</option>
+    </select>
+    <select name="area3" id="area3">
+        <option value="天河区">天河区</option>
+    </select>
+    <br>
+    <label>留言区</label>
+    <textarea name="saySomething" id="say" cols="30" rows="10" placeholder="请输入留言内容"></textarea>
+    <br>
+    <label>验证码：</label>
+    <input type="text" placeholder="请输入验证码">
+    <input type="image" src="./img/checkcode.png" alt="validate">
+    <br>
+    <input type="submit">
+    &nbsp;&nbsp;
+    <input type="reset">
+
+
+</form>
+</body>
+</html>
