@@ -20,17 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed3c6f8d-6b76-4e37-bfaa-f8d3991b374f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/button按钮.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/checkcode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/table_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/table作业1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/table作业2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/table作业3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testarea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/表单信息.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Day2课堂笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2课堂笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +47,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -72,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605104350936</updated>
-      <workItem from="1605104351966" duration="12686000" />
+      <workItem from="1605104351966" duration="13488000" />
     </task>
     <servers />
   </component>
